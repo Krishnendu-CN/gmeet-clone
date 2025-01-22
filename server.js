@@ -9,7 +9,7 @@ const server = http.createServer(app);
 // Enable CORS for WebSocket and HTTP
 const io = socketIo(server, {
   cors: {
-    origin: 'https://gmeet-clone-frontend-kqb9n69n8-krishnendu-pauls-projects.vercel.app', // React frontend URL
+    origin: 'https://gmeet-clone-frontend-azl5p98a1-krishnendu-pauls-projects.vercel.app', // React frontend URL
     methods: ['GET', 'POST'],
     credentials: true
   }
